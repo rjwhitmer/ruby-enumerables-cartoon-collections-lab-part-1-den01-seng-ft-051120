@@ -15,7 +15,7 @@ def list_dwarves(array)
   dwarf_number = 1
   
   array.each do |element|
-    puts dwarf_number, ". #{element}"
+    print dwarf_number, ". #{element}"
     dwarf_number += 1 
   end
 end
