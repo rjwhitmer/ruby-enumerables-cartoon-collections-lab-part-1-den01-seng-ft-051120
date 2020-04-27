@@ -12,4 +12,10 @@ def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
+  dwarf_number = 1
+  
+  array.each do |element|
+    puts dwarf_number + ". #{element}"
+    dwarf_number += 1 
+  end
 end
